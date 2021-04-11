@@ -1,10 +1,11 @@
 {
   "name": "node-image-prompt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Library made to show up a prompt to display an image",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^14.14.37",
     "@types/node-powershell": "^3.1.1"
   },
   "dependencies": {
@@ -14,5 +15,13 @@
   "scripts": {
     "test": "node ./test/test.js"
   },
-  "keywords": ["typescript", "prompt", "image", "powershell", "windows", "gui"]
+  "keywords": [
+    "typescript",
+    "prompt",
+    "image",
+    "powershell",
+    "windows",
+    "gui"
+  ],
+  "types": "dist/index.d.ts"
 }
