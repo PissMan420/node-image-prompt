@@ -41,8 +41,10 @@ export async function displayImage(imageBuf: Buffer, title = "Image Viewer") {
   }
   finally {
     await powerShell.dispose()
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 1000)) // wait a bit of time before cleaning the directory to avoid having the resources busy
     await rm(imagePath, { force: true })
     await rmdir(tempImageFolder)
   }
 }
+
+// displayImage(readFileSync("./img_lights.jpg")).then(() => console.log("closed prompt"))
