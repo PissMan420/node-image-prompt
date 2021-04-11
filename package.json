@@ -1,7 +1,7 @@
 {
   "name": "image-prompt",
   "version": "1.0.0",
-  "description": "Window that show up a prompt to display you something",
+  "description": "Library made to show up a prompt to display an image",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -13,5 +13,6 @@
   },
   "scripts": {
     "test": "node ./test/test.js"
-  }
+  },
+  "keywords": ["typescript", "prompt", "image", "powershell", "windows", "gui"]
 }
