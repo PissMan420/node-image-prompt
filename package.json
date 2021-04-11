@@ -1,5 +1,5 @@
 {
-  "name": "image-prompt",
+  "name": "node-image-prompt",
   "version": "1.0.0",
   "description": "Library made to show up a prompt to display an image",
   "main": "dist/index.js",
